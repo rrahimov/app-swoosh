@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90256D15259E31050058C729 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90256D14259E31050058C729 /* Player.swift */; };
 		90741DDF259A129400D9BFE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90741DDE259A129400D9BFE8 /* AppDelegate.swift */; };
 		90741DE1259A129400D9BFE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90741DE0259A129400D9BFE8 /* SceneDelegate.swift */; };
 		90741DE3259A129400D9BFE8 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90741DE2259A129400D9BFE8 /* WelcomeVC.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90256D14259E31050058C729 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		90741DDB259A129400D9BFE8 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90741DDE259A129400D9BFE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90741DE0259A129400D9BFE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,8 +64,8 @@
 		90741DDD259A129400D9BFE8 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				90F55A4E259D90ED007D5B1D /* Controller */,
 				90F55A4D259D90E3007D5B1D /* Model */,
+				90F55A4E259D90ED007D5B1D /* Controller */,
 				90741DF3259A34F900D9BFE8 /* View */,
 				90741DDE259A129400D9BFE8 /* AppDelegate.swift */,
 				90741DE0259A129400D9BFE8 /* SceneDelegate.swift */,
@@ -86,6 +88,7 @@
 		90F55A4D259D90E3007D5B1D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				90256D14259E31050058C729 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				90741DDF259A129400D9BFE8 /* AppDelegate.swift in Sources */,
 				90741DE1259A129400D9BFE8 /* SceneDelegate.swift in Sources */,
 				90741DF5259A353300D9BFE8 /* BorderButton.swift in Sources */,
+				90256D15259E31050058C729 /* Player.swift in Sources */,
 				90F55A55259D935D007D5B1D /* SkillVC.swift in Sources */,
 				90F55A52259D9340007D5B1D /* LeagueVC.swift in Sources */,
 			);
