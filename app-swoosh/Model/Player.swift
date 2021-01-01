@@ -8,7 +8,6 @@
 import Foundation
 
 struct Player {
-    var desiredLeague: String?
-    var skillLevel: String?
-    //Niye ?optional olmalidir?
+    var desiredLeague: String!
+    var skillLevel: String!
 }
